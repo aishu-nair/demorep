@@ -1,0 +1,160 @@
+
+.background-first {
+    text-align: center;
+    color: white;
+    /* background: url("../assets/images/print.jpg"); */
+    background: linear-gradient(#2125290d, #020202, transparent), url("../../assets/images/home.jpg") no-repeat center; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(#004092, #020202, transparent); background-size: cover; box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); */
+  }
+  .background-next{
+    text-align: center;
+    color: white;
+    background: linear-gradient(#2125290d, #020202, transparent), url("../../assets/images/print.jpg") no-repeat center; 
+
+    /* background: url("../assets/images/print.jpg"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  div.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  
+  div.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  div.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+
+  .intro-text {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    /* font-family: Caviar; */
+  }
+  
+  @media (min-width: 768px) {
+    div.masthead .intro-text {
+      padding-top: 150px;
+      padding-bottom: 200px;
+      /* font-family: Caviar; */
+    }
+    div.masthead .intro-text .intro-lead-in {
+        
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    div.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+  }
+  
+
+
+
+  .footer-item{
+    color: #007ca0;
+  }
+
+  .wp-caption {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    }
+    .wp-caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+    .wp-caption:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+    z-index: 1;
+    }
+    .wp-caption-text {
+    display: block;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    /* left: 0;
+    bottom: 0; */
+    padding: 1em;
+    font-weight: 700;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+  
+
+    
+.page-footer {
+  /* text-align: center; */
+  color: white;
+  /* background: url("../assets/images/print.jpg"); */
+  background: linear-gradient(#2125290d, #020202, transparent), url("../../assets/images/cubes.jpg") no-repeat center; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(#004092, #020202, transparent); background-size: cover; box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); */
+}
+
+
+
+
+
+
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            transition: -webkit-transform 3s ease-out;
+
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+            transition: -webkit-transform 3s ease-out;
+
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+        transition: -webkit-transform 3s ease-out;
+
+}

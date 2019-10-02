@@ -1,0 +1,44 @@
+.logo-style{
+    height: 106px;
+    margin: -13px;
+  }
+
+  .navbar-style{
+    background-color: white;
+    /* initial; */
+     /* #f8f9fa70;; */
+}
+
+.nav-link{
+  color: #007ca0;
+  /* font-family: Caviar; */
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-link:hover{
+  color:brown;
+}
+
+fa{
+  padding:2px;
+  font-size:19px;
+}
+
+/* fa:hover{
+  color:red
+} */
+
+.navbar{
+/* background-color: initial */
+background-color: white;
+
+}
+
+.nav{
+    /* background-color: initial */
+    background-color: white;
+
+
+}
