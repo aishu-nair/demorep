@@ -2,8 +2,8 @@
 .background-first {
     text-align: center;
     color: white;
-    /* background: url("../assets/images/print.jpg"); */
-    background: linear-gradient(#2125290d, #020202, transparent), url("../../assets/images/home.jpg") no-repeat center; 
+    /* background: url("./assets/images/print.jpg"); */
+    background: linear-gradient(#2125290d, #020202, transparent), url("./assets/images/home.jpg") no-repeat center; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,9 +13,9 @@
   .background-next{
     text-align: center;
     color: white;
-    background: linear-gradient(#2125290d, #020202, transparent), url("../../assets/images/print.jpg") no-repeat center; 
+    background: linear-gradient(#2125290d, #020202, transparent), url("./assets/images/print.jpg") no-repeat center; 
 
-    /* background: url("../assets/images/print.jpg"); */
+    /* background: url("./assets/images/print.jpg"); */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,8 +121,8 @@
 .page-footer {
   /* text-align: center; */
   color: white;
-  /* background: url("../assets/images/print.jpg"); */
-  background: linear-gradient(#2125290d, #020202, transparent), url("../../assets/images/cubes.jpg") no-repeat center; 
+  /* background: url("./assets/images/print.jpg"); */
+  background: linear-gradient(#2125290d, #020202, transparent), url("./assets/images/cubes.jpg") no-repeat center; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
